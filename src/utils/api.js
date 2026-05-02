@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://13.233.146.236:8080', // ✅ FIXED
+  baseURL: '/api', // ✅ Netlify proxy
   headers: {
     'Content-Type': 'application/json'
   }
